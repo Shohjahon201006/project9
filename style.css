@@ -104,6 +104,103 @@ span, a, label {
     color: #00636d;
 }
 
+.mini-p1 {
+  font-size: 30px;
+}
+.mini-img {
+  margin-top: 62px;
+}
+.mini-p2 {
+  font-size: 30px;
+}
+.mini-h1 {
+  padding: 16px;
+  margin-top: 49px;
+}
+.mini {
+  display: flex;
+
+  padding: 20.3px;
+}
+.mini-text {
+  width: 217px;
+  height: 213px;
+  top: 322px;
+  padding: 22px;
+}
+
+a {
+  font-size: 20px;  
+}
+.card {
+  position: relative;
+}
+.containerrr {
+   position: absolute;
+   top: 10%;
+   left: 1%;
+   transform: translate(-50% -50%);
+    width: 21%;
+    background-color: #bebdbd8f;
+    padding: 30px;
+    border-radius: 5px;
+}
+.info-section {
+    margin-bottom: 15px;
+}
+.info-section h2 {
+    color: #555;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+}
+.p-text {
+  font-size: 20px;
+}
+.info-section p {
+    margin: 5px 0;
+    color: #666;
+}
+.kawassaki {
+  padding: 16px;
+}
+
+
+.contain {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-image: url(bg.png);
+}
+.form {
+  width: 20%;
+  padding: 16px;
+}
+.inp1 {
+  width: 599px;
+  height: 42px;
+}
+.inp2 {
+  width: 599px;
+  height: 155px;
+}
+.btn2 {
+  cursor: pointer;
+  width: 291px;
+  height: 61px;
+  background-color: #ff7d00;
+  color: #fff;
+  border-radius: 10px;
+  border: none;
+  font-size: 30px;
+}
+.containn {
+  width: 500px;
+  height: 427px;
+  top: 24px;
+  background-color: #ffffffc7;
+  padding: 28px;
+}
 @media (max-width: 992px) {
   .content {
     flex-direction: column;
